@@ -4,6 +4,7 @@
 > Paste a transcript → get a concept map + adaptive quiz + Dr. Priya's interview debrief.
 
 ---
+#docFixes
 
 ## What It Does
 
@@ -239,6 +240,7 @@ Or use the CLI after installing LM Studio:
 lms server start
 lms get qwen/qwen3-4b-2507    # downloads GGUF Q8_0
 ```
+note: "qwen/" is a path and not a model name
 
 ### Step 3 — Load the model with a large context window
 
@@ -333,7 +335,8 @@ make dev   # starts backend + frontend together
 
 ## Setup — Cloud LLM (OpenAI / Anthropic / Gemini)
 
-No local server needed. Just set the API key and update `config.yaml`.
+
+No local server needed. Just set the API key and update `config.yaml`
 
 ### OpenAI
 
@@ -614,8 +617,17 @@ Distill accepts any text input with instructor speech. No specific format requir
 
 Minimum 100 characters. There is no maximum, the map-reduce pipeline handles transcripts of any length.
 
+This also serves as a guid for PR - Pull requests: 
+- Feature update : feature/<somefeatureYouadd>
+- bugfix : bugfix/fix-login-button
+- document Update: docs/update-readme
 ---
 
-## License
+## Licensex
 
 MIT — for educational use as part of the GenAI-2026 curriculum by Inceptez.
+
+Trying to add some doc
+#Testing line - Sabari
+
+#Testing - Nat
