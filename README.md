@@ -616,7 +616,7 @@ Minimum 100 characters. There is no maximum, the map-reduce pipeline handles tra
 
 ---
 
-This also serves :
+This also serves the following
 feature : feature/<repo_name>
 bugfixes : bugfixes/<repo_name>
 
